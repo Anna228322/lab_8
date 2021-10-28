@@ -1,0 +1,52 @@
+Event{id=-1578368135, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:01:58}Event{id=244787425, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:02:10}Event{id=1308511350, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:02:29}Event{id=-580752904, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:03:01}
+Event{id=1798422946, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:03:13}
+Event{id=1629570010, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:03:18}
+Event{id=1816630425, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:03:55}
+Event{id=-399424375, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:06:29}
+Event{id=714583528, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 19:06:29}
+Event{id=-266156363, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:58:14}
+Event{id=-635090716, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 19:58:14}
+Event{id=104120624, msg='Init client DefaultUser', date=24 окт. 2021 г., 19:58:22}
+Event{id=-1172131033, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 19:58:22}
+Event{id=863474414, msg='[INFO] Init client DefaultUser', date=24 окт. 2021 г., 19:58:42}
+Event{id=228915793, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 19:58:42}
+[INFO] Event{id=254993268, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:00:08}
+Event{id=1258575965, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:00:08}
+Event{id=-1687024228, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:00:23}
+Event{id=-397245056, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:00:23}
+Event{id=1538274936, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:00:29}
+Event{id=-1252998931, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:00:30}
+Event{id=-1190016464, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:01:12}
+Event{id=-1613824166, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:01:12}
+Event{id=1778366212, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:01:30}
+Event{id=-1035414652, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:02:01}
+[INFO] Event{id=-1210487035, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:02:15}
+Event{id=1677779395, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:02:15}
+[INFO] Event{id=-1764588278, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:02:23}
+Event{id=-610647071, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:02:23}
+[INFO] Event{id=920883671, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:03:29}
+Event{id=-223514021, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:03:29}
+[ERROR] Event{id=-1101126941, msg='Unknown error', date=24 окт. 2021 г., 20:03:29}
+[INFO] Event{id=-305871051, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:03:42}
+[ERROR] Event{id=-1791946369, msg='Unknown error', date=24 окт. 2021 г., 20:03:42}
+Event{id=1610378245, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:03:42}
+[INFO] Event{id=351136703, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:07:15}
+[ERROR] Event{id=1102075141, msg='Unknown error', date=24 окт. 2021 г., 20:07:15}
+Event{id=1142263678, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:07:15}
+[INFO] Event{id=313333782, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:15:19}
+[ERROR] Event{id=-532689483, msg='Unknown error', date=24 окт. 2021 г., 20:15:19}
+Event{id=-1977291683, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:15:19}
+[INFO] Event{id=2085498272, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:22:02}
+[ERROR] Event{id=-863140956, msg='Unknown error', date=24 окт. 2021 г., 20:22:03}
+Event{id=-222223730, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:22:03}
+[INFO] Event{id=562871723, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:22:10}
+[ERROR] Event{id=1606157833, msg='Unknown error', date=24 окт. 2021 г., 20:22:10}
+Event{id=-1927454238, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:22:10}
+[INFO] Event{id=1897324198, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:29:43}
+[ERROR] Event{id=-1540868179, msg='Unknown error', date=24 окт. 2021 г., 20:29:43}
+Event{id=-452481544, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:29:43}
+[INFO] Event{id=1230261735, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:42:52}
+Event{id=147250547, msg='Greeting from client DefaultUser: Hello there!!!', date=24 окт. 2021 г., 20:42:52}
+[INFO] Event{id=52037535, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:43:35}
+[INFO] Event{id=-122474811, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:44:18}
+[INFO] Event{id=1619597548, msg='Init client DefaultUser', date=24 окт. 2021 г., 20:44:35}
