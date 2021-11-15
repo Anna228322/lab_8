@@ -1,4 +1,4 @@
-package com.example.demo.beans.processors;
+package com.example.lab_8;
 
 import java.io.PrintStream;
 
@@ -6,7 +6,7 @@ public interface FileProcessor {
 
     boolean doesSupportFile(String path);
 
-    String getFunctionDescription();
+    String getDescription();
 
     void execute(String path, PrintStream writer);
 

@@ -1,7 +1,5 @@
-package com.example.demo.utils;
+package com.example.lab_8;
 
-import com.example.demo.beans.processors.FileProcessor;
-import com.example.demo.App;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
@@ -10,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ModuleScanner {
+public class BeansReader {
     @Autowired
     private App app;
 

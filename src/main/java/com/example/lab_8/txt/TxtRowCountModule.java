@@ -1,6 +1,6 @@
-package com.example.demo.beans.processors.log;
+package com.example.lab_8.txt;
 
-import com.example.demo.beans.processors.FileProcessor;
+import com.example.lab_8.FileProcessor;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -12,14 +12,14 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @Component
-public class LogRowCountModule implements FileProcessor {
+public class TxtRowCountModule implements FileProcessor {
     @Override
     public boolean doesSupportFile(String path) {
-        return path != null && path.contains(".") && path.split("\\.")[path.split("\\.").length - 1].equals("log");
+        return path != null && path.contains(".") && path.split("\\.")[path.split("\\.").length - 1].equals("txt");
     }
 
     @Override
-    public String getFunctionDescription() {
+    public String getDescription() {
         return "Prints count of rows in file";
     }
 

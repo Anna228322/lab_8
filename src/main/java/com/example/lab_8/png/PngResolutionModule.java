@@ -1,6 +1,6 @@
-package com.example.demo.beans.processors.png;
+package com.example.lab_8.png;
 
-import com.example.demo.beans.processors.FileProcessor;
+import com.example.lab_8.FileProcessor;
 import org.springframework.stereotype.Component;
 
 import javax.imageio.ImageIO;
@@ -17,7 +17,7 @@ public class PngResolutionModule implements FileProcessor {
     }
 
     @Override
-    public String getFunctionDescription() {
+    public String getDescription() {
         return "Prints width and height of image";
     }
 

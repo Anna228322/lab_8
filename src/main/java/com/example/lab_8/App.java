@@ -1,16 +1,9 @@
-package com.example.demo;
+package com.example.lab_8;
 
-import com.example.demo.beans.AppConfig;
-import com.example.demo.beans.processors.FileProcessor;
-import com.example.demo.beans.processors.png.PngResolutionModule;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Service;
-import com.example.demo.utils.ModuleScanner;
 
 import java.io.PrintStream;
 import java.util.List;
@@ -32,9 +25,9 @@ public class App {
 
         ApplicationContext context = app.getContext();
 
-		context.getBean("scanner", ModuleScanner.class).getModulesForFile(path);
+		context.getBean("scanner", BeansReader.class).getModulesForFile(path);
         PrintStream out = System.out;
-        List<FileProcessor> fileProcessors = app.getContext().getBean("scanner", ModuleScanner.class).getModulesForFile(path);
+        List<FileProcessor> fileProcessors = app.getContext().getBean("scanner", BeansReader.class).getModulesForFile(path);
 
 
 		performInterfaceWork(out, fileProcessors, path);
@@ -43,7 +36,7 @@ public class App {
 	private static void performInterfaceWork(PrintStream out, List<FileProcessor> fileProcessors, String path) {
 		out.println("Found " + fileProcessors.size() + " modules for file \"" + path + "\"");
 		for (FileProcessor fp : fileProcessors) {
-			out.println(fp.getClass().getSimpleName());
+			out.println(fp.getClass().getSimpleName() + " - " + fp.getDescription());
 		}
 		if (fileProcessors.size() == 0)
 			return;
@@ -69,7 +62,7 @@ public class App {
 	}
 
 	private static void perform(String path, FileProcessor processorModule, PrintStream out) {
-		out.println(processorModule.getFunctionDescription());
+		out.println(processorModule.getDescription());
 
 		processorModule.execute(path, out);
 	}

@@ -1,6 +1,6 @@
-package com.example.demo.beans.processors.log;
+package com.example.lab_8.txt;
 
-import com.example.demo.beans.processors.FileProcessor;
+import com.example.lab_8.FileProcessor;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -9,14 +9,14 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @Component
-public class LogSizeModule implements FileProcessor {
+public class TxtSizeModule implements FileProcessor {
     @Override
     public boolean doesSupportFile(String path) {
-        return path != null && path.contains(".") && path.split("\\.")[path.split("\\.").length - 1].equals("log");
+        return path != null && path.contains(".") && path.split("\\.")[path.split("\\.").length - 1].equals("txt");
     }
 
     @Override
-    public String getFunctionDescription() {
+    public String getDescription() {
         return "Prints the size of txt file";
     }
 
